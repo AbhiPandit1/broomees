@@ -144,6 +144,7 @@ const Login = () => {
                 type="text"
                 id="first-name"
                 name="first-name"
+                className="n-input"
                 placeholder="Enter your first name"
                 value={firstName}
                 onChange={(e) => setFirstName(e.target.value)}
@@ -154,6 +155,7 @@ const Login = () => {
                 type="text"
                 id="last-name"
                 name="last-name"
+                className="n-input"
                 placeholder="Enter your last name"
                 value={lastName}
                 onChange={(e) => setLastName(e.target.value)}
@@ -165,6 +167,7 @@ const Login = () => {
               type="email"
               id="email"
               name="email"
+              className="input"
               placeholder="Enter your email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -175,6 +178,7 @@ const Login = () => {
               type="text"
               id="username"
               name="username"
+              className="input"
               placeholder="Choose a username"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
@@ -185,6 +189,7 @@ const Login = () => {
               type="password"
               id="password"
               name="password"
+              className="input"
               placeholder="Enter your password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
@@ -195,6 +200,7 @@ const Login = () => {
               type="password"
               id="confirm-password"
               name="confirm-password"
+              className="input"
               placeholder="Confirm your password"
               value={confirmPassword}
               onChange={(e) => setConfirmPassword(e.target.value)}

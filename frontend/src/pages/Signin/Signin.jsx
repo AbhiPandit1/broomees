@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import './Signin.css';
 
 const SignIn = () => {
   const [username, setUsername] = useState('');
@@ -89,6 +90,7 @@ const SignIn = () => {
               type="text"
               id="username"
               name="username"
+              className="s-input"
               placeholder="Choose a username"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
@@ -98,6 +100,7 @@ const SignIn = () => {
               type="password"
               id="password"
               name="password"
+              className="s-input"
               placeholder="Enter your password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}

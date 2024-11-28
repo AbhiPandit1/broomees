@@ -98,6 +98,9 @@
   margin-bottom: 1%;
 }
 
+.right-section {
+  overflow: scroll;
+}
 .right-section p {
   text-align: center;
   font-size: 1rem;
@@ -110,16 +113,25 @@ form {
   display: flex;
   flex-direction: column;
   gap: 1.4rem;
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
 .name-input {
   display: flex;
   justify-content: space-between;
-  width: full;
+  font-size: 1rem;
+  width: 94%;
+  gap: 1rem;
+  overflow: hidden;
+}
+.n-input {
+  font-size: 1rem;
+  padding: 0.8rem;
+  border-radius: 6px;
+  width: 50%;
 }
 
-input {
+.input {
   padding: 0.7rem;
   font-size: 1.3rem;
   border: 1px solid #ccc;
@@ -152,9 +164,9 @@ input:focus {
 
   .right-section {
     width: 100%;
-    padding: 2rem;
+    padding: 1rem;
     height: 100%;
-    overflow: hidden;
+    overflow: scroll;
   }
 
   .right-section h1 {
@@ -169,18 +181,13 @@ input:focus {
 
   form {
     width: 100%;
-    padding: 0 1rem;
   }
 
-  input {
-    font-size: 1rem;
-    padding: 0.6rem;
+  .n-input {
+    width: 88%;
   }
-  .name-input {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    justify-content: space-between;
+  .input {
+    width: 85%;
   }
 
   .get-started-button {

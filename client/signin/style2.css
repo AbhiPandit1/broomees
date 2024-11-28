@@ -120,7 +120,7 @@ input {
   font-size: 1.3rem;
   border: 1px solid #ccc;
   border-radius: 6px;
-  width: 100%;
+  width: 90%;
   display: flex;
   margin-top: 2rem;
 }
@@ -134,7 +134,7 @@ input {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  width: 100%;
+  width: 95%;
 }
 
 @media screen and (max-width: 768px) {
@@ -144,7 +144,7 @@ input {
 
   .right-section {
     width: 100%;
-    padding: 2rem;
+    padding-right: 2rem;
     height: 100%;
     overflow: hidden;
   }
@@ -164,7 +164,7 @@ input {
     padding: 0 1rem;
   }
 
-  input {
+  .s-input {
     font-size: 1rem;
     padding: 0.6rem;
   }
