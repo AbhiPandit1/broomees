@@ -122,7 +122,6 @@ form {
   font-size: 1rem;
   width: 94%;
   gap: 1rem;
-  overflow: hidden;
 }
 .n-input {
   font-size: 1rem;
@@ -166,7 +165,6 @@ input:focus {
     width: 100%;
     padding: 1rem;
     height: 100%;
-    overflow: scroll;
   }
 
   .right-section h1 {
